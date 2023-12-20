@@ -50,7 +50,7 @@ To auto-download subtitles for the currently playing video, press `b`. To auto-s
 
 ### Debug
 
-To open a debug console, press `\``. It can be used to send mpv input commands, thanks to [repl](https://github.com/rossy/mpv-repl).
+To open a debug console, press `. It can be used to send mpv input commands, thanks to [repl](https://github.com/rossy/mpv-repl).
 
 ## Third-Party
 
