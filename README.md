@@ -11,10 +11,10 @@ My MPV config
 git clone https://github.com/warigan/mpv-config ~/.config/mpv
 ```
 
-2. Rename files:
+2. Create symbolic link:
 ```sh
-mv input_linux.conf input.conf
-mv mpv_linux.conf mpv.conf
+cd ~/.config/mpv
+ln -s mpv_linux.conf mpv.conf
 ```
 
 3. (Optional) To use `autosubsync`, choose synctools in `script-opts/autosubsync.conf`, install them on your system then specify their paths.
@@ -23,13 +23,13 @@ mv mpv_linux.conf mpv.conf
 
 1. Clone this repo into the mpv config location
 ```pwsh
-git clone https://github.com/warigan/mpv-config C:\users\USERNAME\AppData\Roaming\mpv
+git clone https://github.com/warigan/mpv-config C:\users\$env:username\AppData\Roaming\mpv
 ```
 
-2. Rename files:
-```sh
-mv input_windows.conf input.conf
-mv mpv_windows.conf mpv.conf
+2. Create symbolic link (might need admin privileges):
+```pwsh
+cd C:\users\$env:username\AppData\Roaming\mpv
+New-Item -ItemType SymbolicLink -Path mpv.conf -Target .\mpv_windows.conf
 ```
 
 3. (Optional) To use `autosubsync`, choose synctools in `script-opts/autosubsync.conf`, install them on your system then specify their paths.
@@ -38,11 +38,22 @@ mv mpv_windows.conf mpv.conf
 
 ## Usage
 
-### Shader profiles
+### Shader auto profiles
 
-Use `Ctrl+[1-6]` to select a shader profile for Animated videos and `Ctrl+9` for live action. `Ctrl+0` clears the shaders so no profile is active. By default `Anime4K: Mode A (HQ)` is selected (`Ctrl+1`) which provides high quality Anime without sacrificing frames (at least on my system). `Anime4K: Mode A+A (HQ)` (`Ctrl+4`) gives (arguably) the best quality, but at a higher performance cost. For more information, see [Anime4K docs](https://github.com/bloc97/Anime4K/blob/master/md/GLSL_Instructions_Advanced.md).
+#### Anime4K
 
-NOTE: Profile switching is not saved across sessions, so if you don't want to use `Ctrl+1` you would have to change every time you open a video. I recommend you instead change the default in `mpv.conf`.
+If the path of the currently playing file contains a directory named `Anime` (case insensitive) mpv will automatically load the `anime` shader profile. By default this will in turn load the `Anime4K: Mode A (HQ)` shaders, but this can be changed in `mpv.conf` under `[anime]`.
+The default `Anime4K: Mode A (HQ)` provides high quality anime without sacrificing frames (at least on my system). `Anime4K: Mode A+A (HQ)` (`Ctrl+4`) gives (arguably) the best quality, but at a higher performance cost. See the [Anime4K docs](https://github.com/bloc97/Anime4K/blob/master/md/GLSL_Instructions_Advanced.md) for more information.
+
+#### FSR
+
+If the path of the currently playing file contains a directory named `TV-Series`, `TV_Series` or `TVSeries` (all case insensitive) then mpv will automatically load the `live-action` shader profile. By default this will in turn load the `FidelityFX FSR` shader.
+
+#### Key bindings
+
+Use `Ctrl+[1-6]` to manually select a Anime4K profile and `Ctrl+9` for FSR. `Ctrl+0` clears the shaders so no profile is active.
+
+NOTE: Profile switching is not saved across sessions, so if you don't want to use the configured default you would have to change every time you open a video. I recommend you instead change the defaults in `mpv.conf`.
 
 ### Subtitles
 
