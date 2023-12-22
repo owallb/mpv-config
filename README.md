@@ -48,7 +48,7 @@ The default (`Anime4K: Mode A (HQ)`) is my personal choice for my system (Ryzen 
 
 #### FSR
 
-If the path of the currently playing file contains a directory named `TV-Series`, `TV_Series` or `TVSeries` (all case insensitive) then mpv will automatically load the `live-action` shader profile. By default this will in turn load the `FidelityFX FSR` shader.
+If the path of the currently playing file contains a directory named `Movies`, `TV-Series`, `TV_Series` or `TVSeries` (all case insensitive) then mpv will automatically load the `live-action` shader profile. By default this will in turn load the `FidelityFX FSR` shader.
 
 #### Key bindings
 
