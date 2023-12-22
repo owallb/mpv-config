@@ -42,8 +42,9 @@ New-Item -ItemType SymbolicLink -Path mpv.conf -Target .\mpv_windows.conf
 
 #### Anime4K
 
-If the path of the currently playing file contains a directory named `Anime` (case insensitive) mpv will automatically load the `anime` shader profile. By default this will in turn load the `Anime4K: Mode A (HQ)` shaders, but this can be changed in `mpv.conf` under `[anime]`.
-The default `Anime4K: Mode A (HQ)` provides high quality anime without sacrificing frames (at least on my system). `Anime4K: Mode A+A (HQ)` (`Ctrl+4`) gives (arguably) the best quality, but at a higher performance cost. See the [Anime4K docs](https://github.com/bloc97/Anime4K/blob/master/md/GLSL_Instructions_Advanced.md) for more information.
+If the path of the currently playing file contains a directory named `Anime` (case insensitive) mpv will automatically load the `anime` shader profile which in turn will load the configured `Anime4K` profile.
+
+The default (`Anime4K: Mode A (HQ)`) is my personal choice for my system (Ryzen 7 7800X3D, RX 6900 XT @ 165 Hz), if this is not ideal for you it can be changed in `mpv.conf` under `[anime]`. I recommend experimenting by enabling the statistics overlay (`Shift+I`) and enable one at a time with `Ctrl+[0-9]`. See the [Anime4K docs](https://github.com/bloc97/Anime4K/blob/master/md/GLSL_Instructions_Advanced.md) for more information.
 
 #### FSR
 
