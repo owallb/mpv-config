@@ -1,6 +1,6 @@
 # mpv-config
 
-My MPV config. Requires mpv v0.37+
+My mpv config. Requires mpv v0.37+
 
 ## Installation
 
