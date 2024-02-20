@@ -19,6 +19,8 @@ ln -s mpv_linux.conf mpv.conf
 
 3. (Optional) To use `autosubsync`, choose synctools in `script-opts/autosubsync.conf`, install them on your system then specify their paths.
 
+4. (Optional) To use `autosub`, it is recommended to configure login credentials in `scripts/autosub.lua`.
+
 ### Windows
 
 1. Clone this repo into the mpv config location
