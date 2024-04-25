@@ -76,7 +76,7 @@ This project includes third party software from the projects listed below.
 ### Scripts
 * [autosubsync-mpv](https://github.com/joaquintorres/autosubsync-mpv) v0.33
 * [mpv-autosub](https://github.com/davidde/mpv-autosub) based on commit 35115355bd339681f97d067538356c29e5b14afa
-* [ModernX](https://github.com/cyl0/ModernX) v0.6.0
+* [ModernX](https://github.com/cyl0/ModernX) v0.6.1
 * [repl.lua](https://github.com/rossy/mpv-repl) based on commit f7538adea92b441f2c7edd5dc07dd50dac28d3d5
 * [thumbfast](https://github.com/po5/thumbfast) based on commit 03e93feee5a85bf7c65db953ada41b4826e9f905
 
