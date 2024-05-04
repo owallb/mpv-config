@@ -83,3 +83,6 @@ This project includes third party software from the projects listed below.
 ### Shaders
 * [Anime4K](https://github.com/bloc97/Anime4K) v4.0.1
 * [FSR.glsl](https://gist.github.com/agyild/82219c545228d70c5604f865ce0b0ce5) v1.0.2
+
+### Lua stubs
+* [emmylua-stubs](https://github.com/haolian9/emmylua-stubs) based on commit 6d6a51d9f64e30dfe2f57ff104485095361d4a7b
