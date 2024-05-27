@@ -62,10 +62,6 @@ NOTE: Profile switching is not saved across sessions, so if you don't want to us
 
 To auto-download subtitles for the currently playing video, press `b`. To auto-sync the currently selected subtitles with the audio, press `n`.
 
-### Debug
-
-To open a debug console, press `. It can be used to send mpv input commands, thanks to [repl](https://github.com/rossy/mpv-repl).
-
 ## Third-Party
 
 This project includes third party software from the projects listed below.
