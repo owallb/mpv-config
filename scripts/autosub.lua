@@ -26,7 +26,7 @@
 --=============================================================================
 --          This script uses Subliminal to download subtitles,
 --          so make sure to specify your system's Subliminal location below:
-local subliminal = 'C:\\Users\\oscar\\scoop\\apps\\python\\current\\Scripts\\subliminal.exe'
+local subliminal = ''
 --=============================================================================
 -->>    SUBTITLE LANGUAGE:
 --=============================================================================
