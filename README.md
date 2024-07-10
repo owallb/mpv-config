@@ -79,7 +79,9 @@ This project includes third party software from the projects listed below. All r
 * [thumbfast](https://github.com/po5/thumbfast/tree/03e93feee5a85bf7c65db953ada41b4826e9f905), licensed under [MPL 2.0](third-party/thumbfast/LICENSE)
 
 ### Shaders
-* [Anime4K v4.0.1](https://github.com/bloc97/Anime4K/tree/v4.0.1), licensed under [MIT](third-party/Anime4K/LICENSE-MIT), with the exception of the following shaders which are instead licensed under [Unlicense](third-party/Anime4K/LICENSE-UNLICENSE):
+* [Anime4K v4.0.1](https://github.com/bloc97/Anime4K/tree/v4.0.1), licensed under [MIT](third-party/Anime4K/LICENSE-MIT)*
+
+  \* Except the following shaders which are licensed under [Unlicense](third-party/Anime4K/LICENSE-UNLICENSE):
   * [Anime4K\_AutoDownscalePre\_x2](shaders/Anime4K_AutoDownscalePre_x2.glsl)
   * [Anime4K\_AutoDownscalePre\_x4](shaders/Anime4K_AutoDownscalePre_x4.glsl)
 
