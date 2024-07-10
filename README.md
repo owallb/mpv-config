@@ -64,20 +64,23 @@ To auto-download subtitles for the currently playing video, press `b`. To auto-s
 
 ## Third-Party
 
-This project includes third party software from the projects listed below.
+This project includes third party software from the projects listed below. All respective licenses are available under the `third-party` directory.
 
 ### Fonts
-* [Material Design Iconic Font](https://github.com/zavoloklom/material-design-iconic-font) v2.2.0
+* [Material Design Iconic Font 2.2.0](https://github.com/zavoloklom/material-design-iconic-font/tree/2.2.0) by [Sergey Kupletsky](https://github.com/zavoloklom), licensed under [CC BY-SA 4.0](third-party/material-design-iconic-font/License.md).
+  * This font includes the official Material Design icons created and maintained by [Google](https://github.com/google/material-design-icons), licensed under [Apache 2.0](third-party/material-design-icons/LICENSE), alongside additional community-designed and brand icons for scalable vector graphics.
+  * This font has not been modified from its original version.
+  * The license text is available [here](third-party/material-design-iconic-font/License.md).
 
 ### Scripts
-* [autosubsync-mpv](https://github.com/joaquintorres/autosubsync-mpv) v0.33
-* [mpv-autosub](https://github.com/davidde/mpv-autosub) based on commit 35115355bd339681f97d067538356c29e5b14afa
-* [ModernX](https://github.com/cyl0/ModernX) v0.6.1
-* [thumbfast](https://github.com/po5/thumbfast) based on commit 03e93feee5a85bf7c65db953ada41b4826e9f905
+* [autosubsync-mpv v0.33](https://github.com/joaquintorres/autosubsync-mpv), licensed under [MIT](third-party/autosubsync-mpv/LICENSE)
+* [mpv-autosub](https://github.com/davidde/mpv-autosub/tree/35115355bd339681f97d067538356c29e5b14afa), licensed under [MIT](third-party/mpv-autosub/LICENSE-MIT)
+* [ModernX 0.6.1](https://github.com/cyl0/ModernX/tree/0.6.1)
+* [thumbfast](https://github.com/po5/thumbfast/tree/03e93feee5a85bf7c65db953ada41b4826e9f905), licensed under [MPL 2.0](third-party/thumbfast/LICENSE)
 
 ### Shaders
-* [Anime4K](https://github.com/bloc97/Anime4K) v4.0.1
-* [FSR.glsl](https://gist.github.com/agyild/82219c545228d70c5604f865ce0b0ce5) v1.0.2
+* [Anime4K v4.0.1](https://github.com/bloc97/Anime4K/tree/v4.0.1), licensed under [MIT](third-party/Anime4K/LICENSE)
+* [FSR.glsl v1.0.2](https://gist.github.com/agyild/82219c545228d70c5604f865ce0b0ce5), licensed under [MIT](third-party/FSR.glsl/LICENSE)
 
 ### Lua stubs
-* [emmylua-stubs](https://github.com/haolian9/emmylua-stubs) based on commit 6d6a51d9f64e30dfe2f57ff104485095361d4a7b
+* [emmylua-stubs](https://github.com/haolian9/emmylua-stubs/tree/6d6a51d9f64e30dfe2f57ff104485095361d4a7b), licensed under [MIT](third-party/emmylua-stubs/LICENSE)
