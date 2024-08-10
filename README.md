@@ -8,7 +8,7 @@ My mpv config. Requires mpv v0.37+
 
 1. Clone this repo into the mpv config location
 ```sh
-git clone https://github.com/warigan/mpv-config ~/.config/mpv
+git clone https://github.com/owallb/mpv-config ~/.config/mpv
 ```
 
 2. Create symbolic link:
@@ -25,7 +25,7 @@ ln -s mpv_linux.conf mpv.conf
 
 1. Clone this repo into the mpv config location
 ```pwsh
-git clone https://github.com/warigan/mpv-config C:\users\$env:username\AppData\Roaming\mpv
+git clone https://github.com/owallb/mpv-config C:\users\$env:username\AppData\Roaming\mpv
 ```
 
 2. Create symbolic link (might need admin privileges):
