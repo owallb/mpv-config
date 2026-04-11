@@ -1,5 +1,8 @@
 # mpv-config
 
+> [!WARNING]
+> This project has moved to [codeberg.org/warg/mpv-config](https://codeberg.org/warg/mpv-config).
+
 My mpv config. Requires mpv v0.37+
 
 ## Installation
