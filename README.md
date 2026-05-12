@@ -1,7 +1,7 @@
 # mpv-config
 
 > [!WARNING]
-> This project has moved to [gitlab.com/warigan/mpv-config](https://gitlab.com/warigan/mpv-config).
+> This project has moved to [git.owall.dev/warg/mpv-config](https://git.owall.dev/warg/mpv-config).
 
 My mpv config. Requires mpv v0.37+
 
